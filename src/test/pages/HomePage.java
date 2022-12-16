@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.open;
 import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.AssertJUnit.assertTrue;
 
 public class HomePage {
 
@@ -18,6 +19,10 @@ public class HomePage {
     public SelenideElement getStaterdBtn() {
         return $(By.id("get-started"));
 
+    }
+
+    public SelenideElement getBtnSupportForm() {
+        return $(By.id("menu-item-697"));
     }
 
     public SelenideElement headingTitle() {
@@ -36,9 +41,50 @@ public class HomePage {
         String url = WebDriverRunner.url();
         assertEquals(url, expectedUrl);
     }
+
     public void asssertTitle(String expectedTitle) {
         String title = title();
         assertEquals(title, expectedTitle);
     }
+
+    public void asssertUrlMensage(String messages) {
+        String urlMessage = WebDriverRunner.url();
+        assertTrue(urlMessage.contains(urlMessage));
+    }
+
+    public SelenideElement inputSupportName(String inputName) {
+        return $(".support-name input")
+                .val(inputName);
+    }
+
+    public SelenideElement inputSupportEmail(String inputEmail) {
+        return $(".support-email input")
+                .val(inputEmail);
+    }
+
+    public SelenideElement inputSupportSubject(String inputSubject) {
+        return $(".support-subject input")
+                .val(inputSubject);
+    }
+
+    public void selectDropDown(String selectDropDown) {
+        $(".support-dropdown select").selectOption(selectDropDown);
+    }
+
+    public SelenideElement selectCheckinBox() {
+        return $(".support-checkboxes ul li:nth-child(3) input");
+    }
+
+    public SelenideElement getDateBtn() {
+        return $(".support-date input");
+    }
+
+    public SelenideElement getDateSelect() {
+        return $(".flatpickr-day.nextMonthDay");
+    }
+    public SelenideElement getSubmintSelect() {
+        return $("button[type=submit]");
+    }
+
 
 }
