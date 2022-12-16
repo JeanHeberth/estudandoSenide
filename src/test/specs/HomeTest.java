@@ -1,7 +1,9 @@
+import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.WebDriverRunner;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.List;
@@ -14,15 +16,23 @@ import static com.codeborne.selenide.Condition.*;
 
 public class HomeTest {
 
+    HomePage homePage = new HomePage();
+
     @Test
     public void testPagerUrlAndTitle() {
-        open("https://practice.automationbro.com/");
+        // Open page url
+        homePage
+                .open()
+                .asssertUrl("https://practice.automationbro.com/");
+        homePage
+                .asssertTitle("Practice E-Commerce Site – Automation Bro");
 
-        /*String url = WebDriverRunner.url();
-        assertEquals(url,"https://practice.automationbro.com/");
-        */
-        String title = title();
-        assertEquals(title, "Practice E-Commerce Site – Automation Bro");
+
+
+        // Assert the title matches
+        //String title = title();
+       //Assert.assertEquals(title,"Practice E-Commerce Site – Automation Bro");
+
     }
 
     @Test
@@ -30,21 +40,21 @@ public class HomeTest {
         open("https://practice.automationbro.com/");
 
         // By ID
-        $(By.id("get-started")).click();
+        homePage.getStaterdBtn()
+                .click();
 
         // Verificar se contém a url
         String url = WebDriverRunner.url();
         assertTrue(url.contains("get-started"));
 
         // Verify heading by cssSelector
-        $("h1")
+        homePage.headingTitle()
                 .shouldHave(text("Think different. Make different."));
 
         // Xpath
-        $(By.xpath("//a[@class=\"custom-logo-link\"]"))
+        homePage.verifyLogoVisible()
                 .shouldHave(visible);
     }
-    //evf-680-field_lVizlNhYus-1-container
 
     @Test
     public void testMultipleElements() {
@@ -52,11 +62,16 @@ public class HomeTest {
 
         List<String> expectedLink = List.of("Home", "About", "Shop", "Blog", "Contact", "My account");
 
-        ElementsCollection linkLists = $$("#primary-menu li[id*=menu-item]");
+        ElementsCollection linkLists = homePage.linkList();
 
-        List<String> linksListsText = linkLists.texts();
+        //$$("#primary-menu li[id*=menu-item]");
 
-        assertEquals(linksListsText, expectedLink);
+        //List<String> linksListsText = linkLists.texts();
+
+        // Assertion
+        homePage.linkList()
+                .shouldHave(CollectionCondition.texts(expectedLink));
+        //assertEquals(linksListsText, expectedLink);
     }
 
     @Test
