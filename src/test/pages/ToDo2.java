@@ -1,4 +1,3 @@
 public class ToDo2 {
-
-    //kTeste
+ HomePage page = new HomePage();
 }
