@@ -1,0 +1,125 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"96e4049a-fc68-418f-be99-4e4c9aa095d3\" name=\"Changes\" comment=\"testando branch 1 vai dar certo.\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/pages/BranchTest2.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/pages/BranchTest2.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"BranchTeste1\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\n  </component>\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.28045976&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"\" />\n    </key>\n  </component>\n  <component name=\"TaskManager\">\n    <task id=\"LOCAL-00001\" summary=\"qq\">\n      <created>1671283648700</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1671283648700</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"qq\">\n      <created>1671283729214</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1671283729214</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"qq\">\n      <created>1671283998377</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1671283998377</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"testando\">\n      <created>1671459770088</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1671459770088</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"testando\">\n      <created>1671460170264</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1671460170264</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"testando branch 1\">\n      <created>1671461024680</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1671461024680</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"testando branch 1\">\n      <created>1671461062212</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1671461062212</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"testando branch 1\">\n      <created>1671461181988</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1671461181988</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"testando branch 1 vai dar certo.\">\n      <created>1671461303403</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1671461303403</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"testando branch 1 vai dar certo.\">\n      <created>1671462285106</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1671462285106</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"11\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"TEXT_FILTER_SETTINGS\">\n                <TextFilterSettings>\n                  <option name=\"MATCH_CASE\" value=\"true\" />\n                </TextFilterSettings>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"qq\" />\n    <MESSAGE value=\"testando\" />\n    <MESSAGE value=\"testando branch 1\" />\n    <MESSAGE value=\"testando branch 1 vai dar certo.\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"testando branch 1 vai dar certo.\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3b717bcb39100aac48031fa43be9b5c75676de21)
++++ b/.idea/workspace.xml	(date 1671463095067)
+@@ -4,30 +4,21 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="96e4049a-fc68-418f-be99-4e4c9aa095d3" name="Changes" comment="testando branch 1 vai dar certo.">
++    <list default="true" id="96e4049a-fc68-418f-be99-4e4c9aa095d3" name="Changes" comment="Deletado classes desnecessárias no projeto.">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/pages/BranchTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pages/BranchTest2.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-      </list>
+-    </option>
+-  </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="BranchTeste1" />
++        <entry key="$PROJECT_DIR$" value="testeToDo" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="2" id="Add" />
+@@ -41,11 +32,6 @@
+     &quot;project.structure.side.proportion&quot;: &quot;0.28045976&quot;
+   }
+ }</component>
+-  <component name="RecentsManager">
+-    <key name="CopyClassDialog.RECENTS_KEY">
+-      <recent name="" />
+-    </key>
+-  </component>
+   <component name="TaskManager">
+     <task id="LOCAL-00001" summary="qq">
+       <created>1671283648700</created>
+@@ -68,56 +54,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1671283998377</updated>
+     </task>
+-    <task id="LOCAL-00004" summary="testando">
+-      <created>1671459770088</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1671459770088</updated>
+-    </task>
+-    <task id="LOCAL-00005" summary="testando">
+-      <created>1671460170264</created>
+-      <option name="number" value="00005" />
+-      <option name="presentableId" value="LOCAL-00005" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1671460170264</updated>
+-    </task>
+-    <task id="LOCAL-00006" summary="testando branch 1">
+-      <created>1671461024680</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1671461024680</updated>
+-    </task>
+-    <task id="LOCAL-00007" summary="testando branch 1">
+-      <created>1671461062212</created>
+-      <option name="number" value="00007" />
+-      <option name="presentableId" value="LOCAL-00007" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1671461062212</updated>
+-    </task>
+-    <task id="LOCAL-00008" summary="testando branch 1">
+-      <created>1671461181988</created>
+-      <option name="number" value="00008" />
+-      <option name="presentableId" value="LOCAL-00008" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1671461181988</updated>
+-    </task>
+-    <task id="LOCAL-00009" summary="testando branch 1 vai dar certo.">
+-      <created>1671461303403</created>
+-      <option name="number" value="00009" />
+-      <option name="presentableId" value="LOCAL-00009" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1671461303403</updated>
+-    </task>
+-    <task id="LOCAL-00010" summary="testando branch 1 vai dar certo.">
+-      <created>1671462285106</created>
+-      <option name="number" value="00010" />
+-      <option name="presentableId" value="LOCAL-00010" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1671462285106</updated>
+-    </task>
+-    <option name="localTasksCounter" value="11" />
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -139,9 +76,6 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="qq" />
+-    <MESSAGE value="testando" />
+-    <MESSAGE value="testando branch 1" />
+-    <MESSAGE value="testando branch 1 vai dar certo." />
+-    <option name="LAST_COMMIT_MESSAGE" value="testando branch 1 vai dar certo." />
++    <option name="LAST_COMMIT_MESSAGE" value="qq" />
+   </component>
+ </project>
+\ No newline at end of file
