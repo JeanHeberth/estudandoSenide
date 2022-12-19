@@ -15,6 +15,7 @@ public class HomeTest {
 
     HomePage homePage = new HomePage();
 
+
     @Test
     public void testPagerUrlAndTitle() {
         homePage
@@ -49,14 +50,10 @@ public class HomeTest {
 
         ElementsCollection linkLists = homePage.linkList();
 
-        //$$("#primary-menu li[id*=menu-item]");
-
-        //List<String> linksListsText = linkLists.texts();
-
         // Assertion
         homePage.linkList()
                 .shouldHave(CollectionCondition.texts(expectedLink));
-        //assertEquals(linksListsText, expectedLink);
+
     }
 
     @Test
