@@ -1,0 +1,14 @@
+Index: src/test/pages/ToDo2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class ToDo2 {\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/pages/ToDo2.java b/src/test/pages/ToDo2.java
+--- a/src/test/pages/ToDo2.java	(revision bf3906d09e078abdf694813dab5a9a5914d668a4)
++++ b/src/test/pages/ToDo2.java	(date 1671283685174)
+@@ -1,2 +1,3 @@
+ public class ToDo2 {
++
+ }
