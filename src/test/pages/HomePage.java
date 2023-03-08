@@ -5,7 +5,6 @@ import com.codeborne.selenide.WebDriverRunner;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Selenide.open;
 import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.assertTrue;
 
@@ -18,7 +17,6 @@ public class HomePage {
 
     public SelenideElement getStaterdBtn() {
         return $(By.id("get-started"));
-
     }
 
     public SelenideElement getBtnSupportForm() {
