@@ -31,6 +31,26 @@ public class HomeTest {
     public void testExampleaaas() {
         Assert.assertTrue(true, "Test example passed");
     }
+
+    @Test
+    public void testExadsdmpleaaas() {
+        Assert.assertTrue(true, "Test example passed");
+    }
+
+    @Test
+    public void testExdsdavgsdvampleaaas() {
+        Assert.assertTrue(true, "Test example passed");
+    }
+
+    @Test
+    public void testEfasdfdsaasdfsaxampleaaas() {
+        Assert.assertTrue(true, "Test example passed");
+    }
+
+    @Test
+    public void testEasfdsafxampleaaas() {
+        Assert.assertTrue(true, "Test example passed");
+    }
 }
 
 
