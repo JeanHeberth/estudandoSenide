@@ -19,35 +19,8 @@ public class HomeTest {
 //        Configuration.browser = "chrome"; // or "firefox"
         Configuration.headless = true;
         Selenide.open("https://automationexercise.com/");
-
     }
 
-
-    @Test
-    public void testExample() {
-        $(By.xpath("//h1[contains(text(),'Automation Exercise')]")).shouldHave(text("Automation Exercise"));
-
-    } @Test
-    public void testEexample() {
-        $(By.xpath("//h1[contains(text(),'Automation Exercise')]")).shouldHave(text("Automation Exercise"));
-
-    } @Test
-    public void tesdtExample() {
-        $(By.xpath("//h1[contains(text(),'Automation Exercise')]")).shouldHave(text("Automation Exercise"));
-
-    } @Test
-    public void testExddample() {
-        $(By.xpath("//h1[contains(text(),'Automation Exercise')]")).shouldHave(text("Automation Exercise"));
-
-    } @Test
-    public void testEerfxample() {
-        $(By.xpath("//h1[contains(text(),'Automation Exercise')]")).shouldHave(text("Automation Exercise"));
-
-    } @Test
-    public void tesdftExample() {
-        $(By.xpath("//h1[contains(text(),'Automation Exercise')]")).shouldHave(text("Automation Exercise"));
-
-    }
 
     @Test
     public void testExamples() {
