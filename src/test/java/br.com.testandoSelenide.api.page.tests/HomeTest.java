@@ -22,36 +22,15 @@ public class HomeTest {
 
     }
 
-
     @Test
     public void testExample() {
-        $(By.xpath("//h1[contains(text(),'Automation Exercise')]")).shouldHave(text("Automation Exercise"));
-
-    } @Test
-    public void testEexample() {
-        $(By.xpath("//h1[contains(text(),'Automation Exercise')]")).shouldHave(text("Automation Exercise"));
-
-    } @Test
-    public void tesdtExample() {
-        $(By.xpath("//h1[contains(text(),'Automation Exercise')]")).shouldHave(text("Automation Exercise"));
-
-    } @Test
-    public void testExddample() {
-        $(By.xpath("//h1[contains(text(),'Automation Exercise')]")).shouldHave(text("Automation Exercise"));
-
-    } @Test
-    public void testEerfxample() {
-        $(By.xpath("//h1[contains(text(),'Automation Exercise')]")).shouldHave(text("Automation Exercise"));
-
-    } @Test
-    public void tesdftExample() {
-        $(By.xpath("//h1[contains(text(),'Automation Exercise')]")).shouldHave(text("Automation Exercise"));
+        $(By.xpath("//div[@class=\"left-sidebar\"]")).shouldHave(text("Category"));
 
     }
 
     @Test
     public void testExamples() {
-        Assert.assertTrue(true, "Test examddddple passed");
+        Assert.assertTrue(true, "Test passed");
     }
 }
 
